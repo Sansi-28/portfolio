@@ -85,8 +85,10 @@ const env = (window as any).process?.env || {};
 export const SOCIAL_LINKS = {
   github: 'https://github.com/Sansi-28',
   linkedin: 'http://www.linkedin.com/in/santosh-singh-954a80260',
-  twitter: env.TWITTER_URL || '#',
-  instagram: '#'
+  twitter: env.TWITTER_URL || 'https://x.com/Sansi_28?t=4gbBafxdm6BHpq5QvsTBMQ&s=09',
+  instagram: '#',
+  hashnode: 'https://hashnode.com/@sansi28',
+  medium: 'https://medium.com/@santoshsingh-28'
 };
 
 export const PERSONAL_INFO = {
