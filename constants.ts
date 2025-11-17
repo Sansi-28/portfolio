@@ -94,83 +94,71 @@ export const PERSONAL_INFO = {
     "I enjoy creating full-stack apps, exploring AI and ML, and experimenting with tech that teaches me something new. My work ranges from AR-based navigation tools to machine learning pipelines and real-time chat systems—and honestly, half of it started as random ideas I wanted to try at 2 AM. I love turning curious thoughts into real, working projects.",
 };
 
-// Add this new array to constants.ts
 export const ACCOMPLISHMENTS: Accomplishment[] = [
-  // 🌱 Open Source
+
   {
     category: "Open Source",
-    title: "🎉 Hacktoberfest 2025 – Completed",
+    title: "Hacktoberfest 2025 – Completed",
     description:
       "Contributed multiple accepted PRs/MRs to open-source projects and earned Holopin badges, a TreeNation tree, and the official Super Contributor T-shirt.",
     date: "Oct 2025",
-    url: "#"
+    url: "https://www.linkedin.com/posts/santosh-singh-954a80260_hacktoberfest2025-opensource-sustainability-ugcPost-7389067122242555906-JXdz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEA7BVAB0hN6IZLR6e3FWfopnMgVYAFcb9k"
   },
 
-  // 🎓 Courses & Certificates
   {
     category: "Certification",
-    title: "📜 Full-Stack React with Spring Boot",
+    title: "Full-Stack React with Spring Boot",
     description:
       "Completed a full-stack module focused on building modern apps using React.js and Spring Boot.",
     date: "Nov 2025",
-    url: "#"
+    url: "https://www.coursera.org/account/accomplishments/verify/V6B8SL9GXAW1"
   },
   {
     category: "Certification",
-    title: "📘 Machine Learning",
+    title: "Machine Learning",
     description:
       "Completed coursework on Advanced Learning Algorithms, Regression & Classification and Convolutional Neural Networks (CNN).",
     date: "Apr 2025",
-    url: "#"
+    url: "https://www.coursera.org/account/accomplishments/verify/Y9OFVDN7LTRJ"
   },
 
-  // 🚀 Hackathons
   {
     category: "Hackathon",
-    title: "🚀 Regen Hackathon 2025 – Participant",
+    title: "Nerathon 2025 – Participant",
     description: "Participated in the Regen hackathon hosted at NIT Manipur.",
     date: "2025",
-    url: "#"
+    url: "https://drive.google.com/drive/folders/1mKBPSyrlKOqOSe2Y0Xxt2gzc-flrSTt5"
   },
   {
     category: "Hackathon",
-    title: "⚡ HackHazards '25 – Participant",
+    title: "HackHazards '25 – Participant",
     description: "Participated in the HackHazards hackathon by Namespace Community.",
     date: "2025",
-    url: "#"
+    url: "https://drive.google.com/drive/folders/1mKBPSyrlKOqOSe2Y0Xxt2gzc-flrSTt5"
   },
   {
     category: "Hackathon",
-    title: "💻 ByteVerse 7.0 – Participant",
+    title: "ByteVerse 7.0 – Participant",
     description: "Took part in ByteVerse 7.0 hosted by NIT Patna.",
     date: "2025",
-    url: "#"
+    url: "https://drive.google.com/drive/folders/1mKBPSyrlKOqOSe2Y0Xxt2gzc-flrSTt5"
   },
   {
     category: "Hackathon",
-    title: "🥉 3rd Place – AI/AR/VR Hackathon",
+    title: "3rd Place – AI/AR/VR Hackathon",
     description:
       "Team Semicolon; secured 3rd place at the STPI-octaNE CoE hackathon at Manipur University.",
     date: "Feb 2025",
-    url: "#"
+    url: "https://www.linkedin.com/posts/santosh-singh-954a80260_hackathon-ar-ai-ugcPost-7301204636219125761-dRkI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEA7BVAB0hN6IZLR6e3FWfopnMgVYAFcb9k"
   },
 
-  // 🛠 SIH Achievements
   {
     category: "SIH",
-    title: "🚦 SIH 2024 – Shortlisted (College Level)",
-    description:
-      "Developed a Smart Traffic Management System using live camera feeds and reinforcement learning for real-time signal optimization.",
-    date: "2024",
-    url: "#"
-  },
-  {
-    category: "SIH",
-    title: "⚡ SIH 2025 – Waitlisted (GrandFinale)",
+    title: "SIH 2025 – Waitlisted (GrandFinale)",
     description:
       "Worked on a Unified Virtual Power Plant (VPP) platform with AI-powered forecasting, battery optimization, open APIs, and dashboards for technicians and admins.",
     date: "2025",
-    url: "#"
+    url: "https://sih.gov.in/sih2025/screeningresult-batch1"
   }
 ];
 
