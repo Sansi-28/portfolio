@@ -46,24 +46,30 @@ export const PROJECTS = [
 ];
 
 export const SKILLS = [
-  { name: 'Java' },
-  { name: 'Python' },
-  { name: 'JavaScript' },
-  { name: 'React' },
-  { name: 'Spring Boot' },
-  { name: 'Node.js' },
-  { name: 'MongoDB' },
-  { name: 'PostgreSQL' },
-  { name: 'MySQL' },
-  { name: 'REST APIs' },
-  { name: 'Socket.IO / WebSockets' },
-  { name: 'WebRTC' },
-  { name: 'Three.js / AR.js' },
-  { name: 'pandas' },
-  { name: 'NumPy' },
-  { name: 'scikit-learn' },
-  { name: 'Git' },
+  // Expert
+  { name: "Java", level: "Expert", color: "#4CAF50" },
+  { name: "React", level: "Expert", color: "#4CAF50" },
+  { name: "Spring Boot", level: "Expert", color: "#4CAF50" },
+  { name: "REST APIs", level: "Expert", color: "#4CAF50" },
+  { name: "Git", level: "Expert", color: "#4CAF50" },
+
+  // Intermediate
+  { name: "Python", level: "Intermediate", color: "#FFC107" },
+  { name: "JavaScript", level: "Intermediate", color: "#FFC107" },
+  { name: "Node.js", level: "Intermediate", color: "#FFC107" },
+  { name: "PostgreSQL", level: "Intermediate", color: "#FFC107" },
+  { name: "MongoDB", level: "Intermediate", color: "#FFC107" },
+  { name: "WebSockets", level: "Intermediate", color: "#FFC107" },
+  { name: "WebRTC", level: "Intermediate", color: "#FFC107" },
+
+  // Beginner
+  { name: "Three.js", level: "Beginner", color: "#F44336" },
+  { name: "AR.js", level: "Beginner", color: "#F44336" },
+  { name: "NumPy", level: "Beginner", color: "#F44336" },
+  { name: "pandas", level: "Beginner", color: "#F44336" },
+  { name: "scikit-learn", level: "Beginner", color: "#F44336" },
 ];
+
 
 export const NAV_LINKS = [
   { name: 'Home', href: '#home' },
@@ -89,46 +95,82 @@ export const PERSONAL_INFO = {
 };
 
 // Add this new array to constants.ts
-
 export const ACCOMPLISHMENTS: Accomplishment[] = [
+  // 🌱 Open Source
   {
-    category: 'Hackathon',
-    title: '🏆 1st Place - CodeFest 2024',
-    description: 'Developed a real-time data visualization tool for environmental monitoring, winning the grand prize for innovation and impact.',
-    date: 'May 2024',
-    url: '#',
+    category: "Open Source",
+    title: "🎉 Hacktoberfest 2025 – Completed",
+    description:
+      "Contributed multiple accepted PRs/MRs to open-source projects and earned Holopin badges, a TreeNation tree, and the official Super Contributor T-shirt.",
+    date: "Oct 2025",
+    url: "#"
+  },
+
+  // 🎓 Courses & Certificates
+  {
+    category: "Certification",
+    title: "📜 Full-Stack React with Spring Boot",
+    description:
+      "Completed a full-stack module focused on building modern apps using React.js and Spring Boot.",
+    date: "Nov 2025",
+    url: "#"
   },
   {
-    category: 'Certificate',
-    title: '📜 Advanced TypeScript - Scrimba',
-    description: 'Completed an intensive course on advanced TypeScript patterns, including decorators, generics, and module augmentation.',
-    date: 'March 2024',
-    url: '#',
+    category: "Certification",
+    title: "📘 Machine Learning",
+    description:
+      "Completed coursework on Advanced Learning Algorithms, Regression & Classification and Convolutional Neural Networks (CNN).",
+    date: "Apr 2025",
+    url: "#"
+  },
+
+  // 🚀 Hackathons
+  {
+    category: "Hackathon",
+    title: "🚀 Regen Hackathon 2025 – Participant",
+    description: "Participated in the Regen hackathon hosted at NIT Manipur.",
+    date: "2025",
+    url: "#"
   },
   {
-    category: 'Achievement',
-    title: '⭐ GitHub Star Developer',
-    description: 'Recognized by the community for contributing to popular open-source libraries and maintaining helpful developer resources.',
-    date: 'Ongoing',
+    category: "Hackathon",
+    title: "⚡ HackHazards '25 – Participant",
+    description: "Participated in the HackHazards hackathon by Namespace Community.",
+    date: "2025",
+    url: "#"
   },
   {
-    category: 'Project',
-    title: '🤖 PixelBot AI Assistant',
-    description: 'The very AI assistant featured on this site! Built with the Google Gemini API and integrated into a React frontend.',
-    date: 'July 2024',
-    url: '#contact', // You can link to other sections!
+    category: "Hackathon",
+    title: "💻 ByteVerse 7.0 – Participant",
+    description: "Took part in ByteVerse 7.0 hosted by NIT Patna.",
+    date: "2025",
+    url: "#"
   },
   {
-    category: 'Course',
-    title: '🧠 Deep Learning Fundamentals',
-    description: 'A comprehensive course covering neural networks, model training, and practical applications with TensorFlow.',
-    date: 'January 2024',
-    url: '#',
+    category: "Hackathon",
+    title: "🥉 3rd Place – AI/AR/VR Hackathon",
+    description:
+      "Team Semicolon; secured 3rd place at the STPI-octaNE CoE hackathon at Manipur University.",
+    date: "Feb 2025",
+    url: "#"
+  },
+
+  // 🛠 SIH Achievements
+  {
+    category: "SIH",
+    title: "🚦 SIH 2024 – Shortlisted (College Level)",
+    description:
+      "Developed a Smart Traffic Management System using live camera feeds and reinforcement learning for real-time signal optimization.",
+    date: "2024",
+    url: "#"
   },
   {
-    category: 'Achievement',
-    title: '🚀 Top 5% - CodeWars',
-    description: 'Consistently solved complex algorithmic challenges, achieving a high rank on a competitive coding platform.',
-    date: 'Ongoing',
-  },
+    category: "SIH",
+    title: "⚡ SIH 2025 – Waitlisted (GrandFinale)",
+    description:
+      "Worked on a Unified Virtual Power Plant (VPP) platform with AI-powered forecasting, battery optimization, open APIs, and dashboards for technicians and admins.",
+    date: "2025",
+    url: "#"
+  }
 ];
+

@@ -14,7 +14,7 @@ export interface Skill {
 // Add this new interface to types.ts
 
 export interface Accomplishment {
-  category: 'Hackathon' | 'Achievement' | 'Certificate' | 'Course' | 'Project';
+  category: 'Hackathon' | 'Certification' | 'Course' | 'Project'| 'SIH'| 'Open Source';
   title: string;
   description: string;
   date: string;
